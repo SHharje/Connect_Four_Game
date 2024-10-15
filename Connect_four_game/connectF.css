@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(150, 89, 89);
+}
+
+.jumbotron {
+    text-align: center;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    background-color: beige;
+    border: none solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.container{
+    user-select: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board button {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192,192,192);
+    margin: 1px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
